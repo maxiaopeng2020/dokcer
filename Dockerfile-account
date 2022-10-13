@@ -6,5 +6,5 @@ ADD account-0.0.1-SNAPSHOT.jar account.jar
 # 运行jar包
 RUN bash -c 'touch /account.jar'
 ENTRYPOINT ["java","-jar","/account.jar"]
-#暴露端口
-EXPOSE 8080
+#暴露端口   master test
+EXPOSE 8080 
