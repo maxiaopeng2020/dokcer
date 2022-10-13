@@ -9,3 +9,4 @@ ENTRYPOINT ["java","-jar","/account.jar"]
 #暴露端口   master test1
 EXPOSE 8080  hot-fix test
 123
+lhc
